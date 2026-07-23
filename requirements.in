@@ -1,0 +1,8 @@
+black
+flake8
+pytest
+bandit
+pandas
+numpy
+scikit-learn
+statsmodels
