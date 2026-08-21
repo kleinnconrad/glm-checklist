@@ -10,11 +10,6 @@ black==26.5.1
     # via -r requirements.in
 click==8.4.2
     # via black
-colorama==0.4.6
-    # via
-    #   bandit
-    #   click
-    #   pytest
 flake8==7.3.0
     # via -r requirements.in
 iniconfig==2.3.0
@@ -31,7 +26,7 @@ mypy-extensions==1.1.0
     # via black
 narwhals==2.24.0
     # via scikit-learn
-numpy==2.5.1
+numpy==2.5.2
     # via
     #   -r requirements.in
     #   pandas
@@ -88,5 +83,3 @@ stevedore==5.9.0
     # via bandit
 threadpoolctl==3.6.0
     # via scikit-learn
-tzdata==2026.3
-    # via pandas
