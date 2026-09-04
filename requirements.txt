@@ -12,8 +12,12 @@ click==8.4.2
     # via black
 flake8==7.3.0
     # via -r requirements.in
+formulaic==1.2.2
+    # via statsmodels
 iniconfig==2.3.0
     # via pytest
+interface-meta==2.0.1
+    # via formulaic
 joblib==1.5.3
     # via scikit-learn
 markdown-it-py==4.2.0
@@ -25,10 +29,13 @@ mdurl==0.1.2
 mypy-extensions==1.1.0
     # via black
 narwhals==2.24.0
-    # via scikit-learn
+    # via
+    #   formulaic
+    #   scikit-learn
 numpy==2.5.2
     # via
     #   -r requirements.in
+    #   formulaic
     #   pandas
     #   patsy
     #   scikit-learn
@@ -42,6 +49,7 @@ packaging==26.2
 pandas==3.0.5
     # via
     #   -r requirements.in
+    #   formulaic
     #   statsmodels
 pathspec==1.1.1
     # via black
@@ -73,13 +81,18 @@ scikit-learn==1.9.0
     # via -r requirements.in
 scipy==1.18.0
     # via
+    #   formulaic
     #   scikit-learn
     #   statsmodels
 six==1.17.0
     # via python-dateutil
-statsmodels==0.14.6
+statsmodels==0.15.0
     # via -r requirements.in
 stevedore==5.9.0
     # via bandit
 threadpoolctl==3.6.0
     # via scikit-learn
+typing-extensions==4.16.0
+    # via formulaic
+wrapt==2.4.0
+    # via formulaic
