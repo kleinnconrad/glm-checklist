@@ -32,7 +32,7 @@ narwhals==2.24.0
     # via
     #   formulaic
     #   scikit-learn
-numpy==2.5.2
+numpy==2.5.3
     # via
     #   -r requirements.in
     #   formulaic
