@@ -1,0 +1,19 @@
+[project]
+name = "glm-checklist"
+version = "0.1.0"
+description = "GLM Predictive Analytics Checklist"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "statsmodels",
+]
+
+[dependency-groups]
+dev = [
+    "black",
+    "flake8",
+    "pytest",
+    "bandit",
+]
